@@ -1,0 +1,128 @@
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DEFAULT */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #242424;
+}
+
+header{
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    h1{
+        text-align: center;
+    }
+}
+
+main{
+    max-width: 50%;
+    margin: 0 auto
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    width: 100%;
+    margin: auto;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 .3rem 8%;
+}
+
+input{
+    width: 80%;
+    padding: .5rem;
+    margin: auto 0 0 8%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btnSend{
+    max-width: 40%;
+    margin: 1rem auto 0 auto;
+}
+
+button {
+    padding: .5rem .5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mode{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+footer{
+    text-align: center;
+}
+
+/* BUTTOM */
+#btnSend {
+    background-color: #e2234c;
+    color: #f1eded;
+    font-size: 1.1rem;
+}
+
+#btnBasic {
+    background-color: #05917e;
+    color: #f1eded;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+#btnHightContrast {
+    background-color: #e2234c;
+    color: #f1eded;
+    font-size: 1.1rem;
+}
+
+/* BASICO */
+.btnBasic {
+    background-color: #e8eced;
+    color: #00695c;
+}
+
+.btnBasic form {
+    background-color: #f2f2f2;
+}
+
+/* CONTRASTE */
+.btnHightContrast {
+    background-color: #000;
+    color: #f3f3f3;
+}
+
+.btnHightContrast form {
+    background-color: #333;
+}
+
+.btnHightContrast input{
+    background-color: #222;
+    color: #f3f3f3;
+    border-color: #444;
+}
+
+.btnHightContrast button {
+    color: #f3f3f3;
+}
